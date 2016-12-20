@@ -21,15 +21,43 @@
         </activity>
         -->
         <activity android:name=".MainActivity" />
+        <!--
         <activity android:name=".FragmentActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+        <!--
+        <activity android:name=".SimpleCursorAdapterActivity" />
+        <activity android:name=".BaseAdapterActivity" >
+        </activity>
+        <activity android:name=".mainframework02.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".mainframework02.TraditionalViewPagerAcvitity"></activity>
+        <activity android:name=".mainframework02.FragmentMainActivity"></activity>
+
+        <activity android:name=".mainframework03.Fragment03MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SimpleCursorAdapterActivity" />
-        <activity android:name=".BaseAdapterActivity"></activity>
+        -->
+        <activity android:name=".flybrower.demo.HelloWorld">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".flybrower.demo.TargetActivity"></activity>
     </application>
 
 </manifest>

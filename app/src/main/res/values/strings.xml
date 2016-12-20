@@ -4,4 +4,18 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <!--  demo -->
+    <string name="default_border">5sp</string>
+    <array name="string_name">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+    </array>
+    <array name="integer_name">
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </array>
 </resources>
